@@ -4,19 +4,21 @@ My goal was to develop a fun program and enhance my skills in Pyqt5,pygame,pytho
 
 ## How it works
 
--First you have to set up a very simple database shown like below:
+- First you have to set up a very simple database shown like below:
 
--After setting up a database, create a file named `dB-Connection.txt` in current dir and write your database credentials in it according to mysql.connector.connect method(user,password,host,database).The program will read that file and connect to the database if the connection is established correctly.File example below:
 
--To add music, create a folder named `musics` in current dir, and put your .mp3 files in this `musics` folder.
+- After setting up a database, create a file named `dB-Connection.txt` in current dir and write your database credentials in it according to mysql.connector.connect method.
+(for example : user:root,password:myPassword,host:localhost,database:musics) and then save it.The program will read that file and connect to the database if the connection is established correctly.
 
--When you press the Add Music button or use Ctrl+O shortcut and add a music in suggested way, the music will be added to the database.
+- To add music, create a folder named `musics` in current dir, and put your .mp3 files in this `musics` folder.
 
--You can add images for these musics. To do that, create a folder named `music-images` in current dir, and put your .png files in this `music-images` folder.
+- When you press the Add Music button or use Ctrl+O shortcut and add a music in suggested way, the music will be added to the database.
 
--Use Ctrl+Y shortcut or click the top-left most button Add, and then choose `Add Music Image`.It will upload the image file to the database.
+- You can add images for these musics. To do that, create a folder named `music-images` in current dir, and put your .png files in this `music-images` folder.
 
--When you are done setting up your playlist, you can enjoy your musics with features like below.
+- Use Ctrl+Y shortcut or click the top-left most button Add, and then choose `Add Music Image`.It will upload the image file to the database.
+
+- When you are done setting up your playlist, you can enjoy your musics with features like below.
 
 ## Features : What is working?
 
@@ -38,6 +40,12 @@ Requirements are:
 * Pygame 1.9 or above
 * Python 3.7 or above
 * Mysql.connector
+
+## Some Images...
+
+![Screenshot](screenshots/musicbox1.png)
+
+![Screenshot](screenshots/musicbox2.png)
 
 
 ## Credits
