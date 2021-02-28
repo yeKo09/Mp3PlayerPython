@@ -4,8 +4,9 @@ My goal was to develop a fun program and enhance my skills in Pyqt5,pygame,pytho
 
 ## How it works
 
-- First you have to set up a very simple database shown like below:
+- First you have to set up a very simple database shown like below.Note: Don't add any music via MYSQL at the beginning. Those musics in the picture below are there for you to get an idea. Just create the database and create columns(m_id,m_group,m_name,m_kind,file,image) and it will be updated like this picture below when you add musics to it:
 
+- ![Screenshot](screenshots/databaseSample.PNG)
 
 - After setting up a database, create a file named `dB-Connection.txt` in current dir and write your database credentials in it according to mysql.connector.connect method.
 (for example : user:root,password:myPassword,host:localhost,database:musics) and then save it.The program will read that file and connect to the database if the connection is established correctly.
